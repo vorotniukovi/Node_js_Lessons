@@ -1,0 +1,30 @@
+{
+  "name": "lessonnode",
+  "version": "1.0.0",
+  "description": "lesson node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.3.1",
+    "csurf": "^1.11.0",
+    "express": "^4.17.1",
+    "express-handlebars": "4.0.4",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.11",
+    "nodemailer": "^6.4.6",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.3",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.6"
+  }
+}
